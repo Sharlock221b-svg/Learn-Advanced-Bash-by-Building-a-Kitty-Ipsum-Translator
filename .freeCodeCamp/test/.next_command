@@ -99,3 +99,22 @@ echo Dhairya
 ./script.sh 2> stderr.txt > stdout.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+cat name.txt
+./script.sh 2> stderr.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat name.txt
+./script.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat name.txt
+./script.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat name.txt
+./script.sh 2> stderr.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./script.sh < name.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
