@@ -95,3 +95,7 @@ echo Dhairya
 ./script.sh 2> stderr.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo Dhairya
+./script.sh 2> stderr.txt > stdout.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
