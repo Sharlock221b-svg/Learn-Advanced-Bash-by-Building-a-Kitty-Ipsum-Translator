@@ -446,3 +446,9 @@ history -a
 wc -m < kitty_ipsum_2.txt >> kitty_info.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+grep --color 'meow' kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep --color 'meow[a-z]*' kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
