@@ -309,3 +309,9 @@ history -a
 sed 's/'freecodecamp'/'f233C0d3C@mp'/i' name.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+sed 's/< name.txt/'f233C0d3C@mp'/i'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+sed 's/'freecodecamp'/'f233C0d3C@mp'/i' < name.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
