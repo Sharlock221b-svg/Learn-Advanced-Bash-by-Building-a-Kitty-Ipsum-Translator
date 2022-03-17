@@ -455,3 +455,32 @@ history -a
 echo -e "\nNumber of times meow or meowzer appears:" >> kitty_info.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+grep --color 'meow' kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -o 'meow''meowzwe' kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -o 'meow' kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -o 'meow,meowzwe' kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -o 'meow','meowzer' kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -o 'meow/meowzer' kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -o 'meow[a-z]*' kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -o 'meow[a-z]*' kitty_ipsum_2.txt
+wc -l
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+grep -o 'meow[a-z]*' kitty_ipsum_2.txt
+wc -l >> kitty_info.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
