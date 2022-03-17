@@ -48,3 +48,7 @@ history -a
 echo $NAME
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo Dhairya
+read NAME
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
